@@ -1,10 +1,13 @@
 {
+  "home": "https://KavyaChowdary-0414.github.io/SOS1",
   "name": "basics",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
